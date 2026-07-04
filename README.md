@@ -151,11 +151,19 @@ The application will launch locally using Gradio.
 
 ---
 
-# 📸 Application Screenshots
+## 📸 Application Screenshots
 
-> Screenshots of the application interface, prediction results, and healing simulation graph will be added soon.
+### Home Page
 
----
+![Home Page](Images/home_page.png)
+
+### Prediction Result
+
+![Prediction Result](Images/prediction_result.png)
+
+### Healing Graph
+
+![Healing Graph](Images/healing_graph.png)
 
 # 🔮 Future Enhancements
 
