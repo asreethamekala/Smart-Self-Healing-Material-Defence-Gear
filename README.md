@@ -155,19 +155,19 @@ The application will launch locally using Gradio.
 
 ### Home Page
 
-![Home Page](Images/home_page.png)
+![Home Page](Images/Home_page.png)
 
 ### Input Values
 
-![Input Values](Images/values.png)
+![Input Values](Images/Values.png)
 
 ### Prediction Output
 
-![Prediction Output](Images/output1.png)
+![Prediction Output](Images/Output1.png)
 
 ### Healing Graph
 
-![Healing Graph](Images/output2.png)
+![Healing Graph](Images/Output2.png)
 
 # 🔮 Future Enhancements
 
