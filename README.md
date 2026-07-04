@@ -1,37 +1,37 @@
 # 🛡️ Smart Self-Healing Material for Defence Gear
 
-An AI-powered web application that predicts the healing efficiency of self-healing materials used in defence gear based on operating conditions such as temperature, pressure, crack size, and material type. The system uses a Machine Learning model to estimate healing performance and visually simulates the crack healing process over time.
+An AI-powered web application that predicts the healing efficiency of self-healing materials used in defence gear based on environmental and material conditions. The system leverages Machine Learning to estimate healing performance and provides a graphical simulation of the crack healing process over time.
 
 ---
 
 # 📖 Project Overview
 
-Self-healing materials have the potential to improve the durability and reliability of military protective equipment by automatically repairing minor damage. This project demonstrates how Artificial Intelligence can be used to predict the healing efficiency of different self-healing materials under varying environmental conditions.
+Self-healing materials are an emerging technology designed to automatically repair minor damage, improving the durability and lifespan of defence equipment. This project demonstrates how Machine Learning can be used to predict the healing efficiency of different materials based on operating conditions such as temperature, pressure, crack size, and material type.
 
-The application allows users to select a material, enter operating parameters, and receive an instant prediction of healing efficiency along with a graphical visualization of crack reduction over time.
+The application features an interactive web interface built with **Gradio**, allowing users to test different scenarios and visualize the healing process.
 
 ---
 
 # 🎯 Objectives
 
 - Predict the healing efficiency of self-healing materials using Machine Learning.
-- Analyze the effect of temperature, pressure, crack size, and material type.
-- Classify crack severity based on crack size.
+- Analyze the impact of temperature, pressure, crack size, and material type.
+- Classify crack severity into Low, Medium, and High.
 - Detect burn conditions based on material temperature limits.
-- Simulate the crack healing process using graphical visualization.
-- Provide an easy-to-use web interface for testing different scenarios.
+- Simulate the crack healing process through graphical visualization.
+- Provide an easy-to-use web interface for experimentation.
 
 ---
 
 # ✨ Features
 
-- 🤖 Machine Learning-based healing prediction
+- 🤖 AI-based healing efficiency prediction
 - 🌡️ Temperature and burn condition analysis
-- 📏 Crack severity classification (Low, Medium, High)
+- 📏 Crack severity classification
 - 🛡️ Material-specific validation rules
 - 📊 Healing process visualization
 - 📈 Time-based crack reduction graph
-- 💻 Interactive web interface built using Gradio
+- 💻 Interactive Gradio web interface
 
 ---
 
@@ -53,29 +53,25 @@ The application allows users to select a material, enter operating parameters, a
 ```
 Smart-Self-Healing-Material-Defence-Gear/
 
-├── app.py
-├── healing_data_600_realistic.csv
-├── healing_model.pkl
-├── requirements.txt
-├── README.md
-├── Images/
-├── Documentation/
-└── Dataset/
+│── app.py
+│── healing_data_600_realistic.csv
+│── requirements.txt
+│── README.md
+│── LICENSE
+│── .gitignore
 ```
 
 ---
 
 # ⚙️ Machine Learning Workflow
 
-1. Load the healing dataset.
-2. Split the dataset into training and testing sets.
+1. Load the dataset.
+2. Split the data into training and testing sets.
 3. Train a Random Forest Regressor model.
 4. Evaluate model performance using R² Score and Mean Absolute Error (MAE).
-5. Save the trained model.
-6. Accept user inputs through the Gradio interface.
-7. Predict healing efficiency.
-8. Generate a healing simulation graph.
-9. Display prediction results to the user.
+5. Predict healing efficiency based on user inputs.
+6. Generate a crack healing simulation graph.
+7. Display results through the Gradio interface.
 
 ---
 
@@ -86,7 +82,7 @@ Smart-Self-Healing-Material-Defence-Gear/
 - Crack Size (mm)
 - Material Type
 
-Supported Materials:
+### Supported Materials
 
 - Epoxy
 - Nylon
@@ -98,72 +94,78 @@ Supported Materials:
 
 # 📊 Output
 
-The application provides:
+The application displays:
 
-- Material information
-- Crack severity
-- Burn status
-- Predicted healing efficiency
-- Estimated healing time
-- Crack healing simulation graph
+- Material Information
+- Crack Severity
+- Burn Status
+- Predicted Healing Efficiency
+- Estimated Healing Time
+- Crack Healing Simulation Graph
 
 ---
 
 # 📈 Machine Learning Model
 
-**Algorithm Used:** Random Forest Regressor
+**Algorithm Used**
 
-**Evaluation Metrics:**
+- Random Forest Regressor
 
-- R² Score
-- Mean Absolute Error (MAE)
+### Model Performance
 
-The trained model is saved using Joblib and reused during prediction.
+| Metric | Value |
+|---------|-------|
+| Dataset Size | 600 Records |
+| R² Score | 0.94 |
+| Mean Absolute Error (MAE) | 2.68 |
 
 ---
 
 # 🚀 Installation
 
-Clone the repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/asreethamekala/Smart-Self-Healing-Material-Defence-Gear.git
 ```
 
-Move into the project folder
+## Navigate to the Project Folder
 
 ```bash
 cd Smart-Self-Healing-Material-Defence-Gear
 ```
 
-Install the required libraries
+## Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+## Run the Application
 
 ```bash
 python app.py
 ```
 
+The application will launch locally using Gradio.
+
 ---
 
-# 📸 Screenshots
+# 📸 Application Screenshots
 
-Screenshots of the application interface and prediction results will be added here.
+> Screenshots of the application interface, prediction results, and healing simulation graph will be added soon.
 
 ---
 
 # 🔮 Future Enhancements
 
 - Deep Learning-based prediction models
-- IoT sensor integration for real-time monitoring
+- Real-time IoT sensor integration
 - Cloud database support
-- Mobile application integration
+- Mobile application
 - Advanced material analysis
 - Real-time defence equipment monitoring dashboard
+- Model optimization using ensemble techniques
 
 ---
 
@@ -171,12 +173,18 @@ Screenshots of the application interface and prediction results will be added he
 
 **Mekala Asreetha**
 
-B.Tech (Artificial Intelligence and Machine Learning)
+B.Tech – Artificial Intelligence and Machine Learning
 
 Aspiring Data Analyst | Machine Learning Enthusiast
+
+GitHub: https://github.com/asreethamekala
 
 ---
 
 # 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star!
